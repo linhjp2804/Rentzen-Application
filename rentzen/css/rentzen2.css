@@ -1,0 +1,15 @@
+#message{
+    /*some space at the top of error messages */
+    margin-top:20px;
+}
+.btn-default{
+    /* BS4 changed the appearance of btn-default on anchor tags.  
+      I liked the old way better... so that's 
+      what I am making happen here.  */
+    background-color: #CCC;
+    color: black;
+}
+.btn {
+    /*make text wrap nicely in buttons */
+    white-space:normal; 
+}
